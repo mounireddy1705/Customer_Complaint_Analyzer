@@ -1,0 +1,72 @@
+[
+    {
+        "id": "5A96A371",
+        "customer_name": "Mounika",
+        "subject": "Delivery delayed",
+        "complaint": "Complaint:\nMy order was supposed to arrive three days ago, but I still have not received it. Please check the delivery status.",
+        "department": "Delivery",
+        "created_at": "2026-10-05 23:25:36",
+        "status": "Analyzed",
+        "analysis": {
+            "category": "Delivery",
+            "sentiment": "Negative",
+            "priority": "High",
+            "summary": "Order delivery delayed",
+            "key_issues": [
+                "Delayed delivery",
+                "Lack of update on delivery status"
+            ],
+            "root_cause": "Possible root cause: Insufficient tracking information or incorrect shipping address",
+            "feedback": "Please provide more accurate tracking information or update the customer on the delivery status.",
+            "suggested_action": "Investigate the issue and provide a detailed update on the delivery status to the customer.",
+            "suggested_response": ""
+        },
+        "thread": [
+            {
+                "sender": "Customer",
+                "message": "Complaint:\nMy order was supposed to arrive three days ago, but I still have not received it. Please check the delivery status.",
+                "timestamp": "2026-10-05 23:25:36"
+            },
+            {
+                "sender": "Customer",
+                "message": "I still have not received my order. Please give me an update on the delivery.",
+                "timestamp": "2026-10-05 23:29:58"
+            },
+            {
+                "sender": "Customer",
+                "message": "I still have not received my order. Please give me an update on the delivery.",
+                "timestamp": "2026-10-05 23:30:05"
+            }
+        ]
+    },
+    {
+        "id": "7743D8E1",
+        "customer_name": "Mounika",
+        "subject": "Refund not received",
+        "complaint": "I returned my product seven days ago, but I still have not received my refund. Please check the refund status.",
+        "department": "Billing",
+        "created_at": "2026-10-05 23:37:40",
+        "status": "Analyzed",
+        "analysis": {
+            "category": "Refund",
+            "sentiment": "Negative",
+            "priority": "High",
+            "summary": "Delayed refund after return",
+            "key_issues": [
+                "Delayed refund",
+                "Inaccurate refund timeline"
+            ],
+            "root_cause": "Possible root cause: Insufficient processing time for refund",
+            "feedback": "Please ensure timely processing of refunds to avoid delays.",
+            "suggested_action": "Check the refund status again after 7-10 business days.",
+            "suggested_response": "We apologize for the delay in your refund. Our team is working to process your refund as soon as possible. You can track the status of your refund by contacting our customer service team."
+        },
+        "thread": [
+            {
+                "sender": "Customer",
+                "message": "I returned my product seven days ago, but I still have not received my refund. Please check the refund status.",
+                "timestamp": "2026-10-05 23:37:40"
+            }
+        ]
+    }
+]
